@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "name": "ytsig",
-    "version": "0.1",
+    "version": "0.3",
     "description": "Prevents you from wasting your time and your brain on YouTube Shorts.",
-    "permissions": ["https://www.youtube.com/shorts*"],
+    "permissions": ["https://www.youtube.com/*"],
     "content_scripts": [
         {
             "matches": ["https://www.youtube.com/*"],

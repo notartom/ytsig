@@ -6,9 +6,8 @@
     "permissions": ["https://www.youtube.com/shorts*"],
     "content_scripts": [
         {
-            "matches": ["https://www.youtube.com/shorts*"],
-            "js": ["ytsig.js"],
-            "css": ["ytsig.css"]
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["ytsig.js"]
         }
     ]
 }
